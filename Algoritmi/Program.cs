@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Text;
 
-namespace Algoritmi
+namespace Algorithms
 {
     class Program
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritmi
+namespace Algorithms
 {
     /// <summary>
     /// Class that represents stack.

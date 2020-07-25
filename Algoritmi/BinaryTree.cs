@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algoritmi
+namespace Algorithms
 {
     public class BinaryTree
     {
@@ -55,7 +55,6 @@ namespace Algoritmi
         {
             return FindNode(value, Root);
         }
-
         private TreeNode FindNode(int value, TreeNode parent)
         {
             if (parent != null)
@@ -72,12 +71,10 @@ namespace Algoritmi
             }
             return null;
         }
-
         public void Remove(int value)
         {
             Remove(Root, value);
         }
-
         private TreeNode Remove(TreeNode parent, int valueToDelete)
         {
             if (parent == null) return parent;
@@ -111,7 +108,6 @@ namespace Algoritmi
 
             return parent;
         }
-
         private int MinValue(TreeNode node)
         {
             int minValue = node.Data;
@@ -124,7 +120,6 @@ namespace Algoritmi
 
             return minValue;
         }
-
         public void PreorderTraversal(TreeNode Root)
         {
             if (Root != null)

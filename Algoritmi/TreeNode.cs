@@ -1,4 +1,4 @@
-﻿namespace Algoritmi
+﻿namespace Algorithms
 {
     public class TreeNode
     {

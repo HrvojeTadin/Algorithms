@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
-namespace Algoritmi
+namespace Algorithms
 {
     /// <summary>
     /// Double linked list class.
@@ -68,8 +66,7 @@ namespace Algoritmi
             Head = null;
             Tail = null;
             CountOfNodes = 0;
-        }
-                 
+        }                 
         public StringBuilder PrintNodeList()
         {
             DoubleNode n = Head;

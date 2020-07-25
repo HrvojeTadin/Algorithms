@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritmi
+namespace Algorithms
 {
     /// <summary>
     /// A node in the double linked list.

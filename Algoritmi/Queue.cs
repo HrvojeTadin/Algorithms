@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritmi
+namespace Algorithms
 {
     /// <summary>
     /// Queue class which represent a FIFO (First In First Out) collection of integer items.

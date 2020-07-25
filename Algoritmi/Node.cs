@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algoritmi
+﻿namespace Algorithms
 {
     /// <summary>
     /// A node in the singly linked list.
@@ -24,7 +20,6 @@ namespace Algoritmi
         /// Constructor of a new node that receive integer value.
         /// </summary>
         /// <param name="value"></param>
-
         public Node(int value)
         {
             Value = value;

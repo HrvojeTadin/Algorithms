@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
-namespace Algoritmi
+namespace Algorithms
 {
     /// <summary>
     /// Singly linked list class.
@@ -65,8 +63,7 @@ namespace Algoritmi
             Tail = null;
             CountOfNodes = 0;
         }
-
-       
+        
         public StringBuilder PrintNodeList()
         {
             Node n = Head;
